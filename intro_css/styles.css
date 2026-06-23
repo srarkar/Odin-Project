@@ -1,0 +1,35 @@
+/*
+ * CSS is made up of rules. Each rule is formed by a selector and a semicolon-separated list of declarations
+ * 	A selector determines which HTML elements the rule applies to
+ * 	Each declaration is composed of a property and a value
+ */
+
+/* The universal selector * choose elements of all types (i.e. the whole document) */
+* {
+	color: purple;
+}
+
+/* Colors all div HTML elements white */
+div {
+	color: #1100ff;
+}
+
+.alert {
+	color: rgb(10, 15, 20);
+}
+
+/* id must be unique to the page */
+#specific_alert {
+	color: hsl(15, 82%, 56%);
+}
+
+.group_a,
+.group_b {
+	/* shared declarations */
+	background-color: black
+}
+
+.group_a {
+	/* specific to the class */ 
+	color: red
+}
