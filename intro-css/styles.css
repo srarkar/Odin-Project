@@ -2,6 +2,8 @@
  * CSS is made up of rules. Each rule is formed by a selector and a semicolon-separated list of declarations
  * 	A selector determines which HTML elements the rule applies to
  * 	Each declaration is composed of a property and a value
+ * 	When there are conflicting rules, the ones that are more specific and defined last.
+ * 	  Note that an ID selector beats any number of class selectors, and a class selector beats any number of type selectors, and so on
  */
 
 /* The universal selector * choose elements of all types (i.e. the whole document) */
